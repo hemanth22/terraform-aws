@@ -15,7 +15,7 @@ resource "aws_instance" "example" {
   key_name               = "bitroid"
   ami                    = "ami-08f2642bb132b988c"
   instance_type          = "c1.medium"
-  vpc_security_group_ids = ["sg-098b815eb11f8a49a"]
+  vpc_security_group_ids = ["sg-07fdc13c14d29833a"]
   subnet_id              = "subnet-0c54dc9c778537899"
 
   root_block_device {
